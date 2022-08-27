@@ -29,6 +29,8 @@ body {
   border: 10px solid red;
   height: 700px;
   width: 40%;
+  margin: auto;
+  justify-content: center;
 }
 
 #blue_border {
@@ -53,6 +55,10 @@ body {
   justify-content: center;
 }
 
+.flex3 {
+  justify-content: center;
+}
+
 #violet_border {
   border: 10px solid violet;
   height: 70px;
@@ -63,4 +69,20 @@ body {
   border: 10px solid yellow;
   height: 580px;
   width: 95%;
+}
+
+input[type="button"],
+/* input[type="submit"], */
+input[type="reset"] {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  width: 200px;
+}
+
+.col {
+  /* float: left; */
+  width: 120%;
+  margin-top: 10px;
 }

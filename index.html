@@ -34,7 +34,70 @@
     </div>
 
     <div class="flex-container flex1">
-      <div id="red_border"></div>
+      <div id="red_border" class="flex3 flex-container">
+        <form action="/action_page.php">
+          <div>
+            <div class="col">
+              <label for="dname">Destination name</label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                id="dname"
+                destination="destinationname"
+                placeholder="Enter the name of the destination"
+              />
+            </div>
+          </div>
+
+          <div>
+            <div class="col">
+              <label for="lname">Location</label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                id="lname"
+                name="locationname"
+                placeholder="Where is it located?"
+              />
+            </div>
+          </div>
+
+          <div>
+            <div class="col">
+              <label for="photo">Photo</label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                id="photo"
+                name="photoname"
+                placeholder="Enter an image url of the place"
+              />
+            </div>
+          </div>
+
+          <div>
+            <div class="col">
+              <label for="description">Description</label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                id="description"
+                name="descriptionname"
+                placeholder="Where is it located?"
+              />
+            </div>
+          </div>
+
+          <br />
+          <div class="row">
+            <input type="button" value="Add to List" />
+          </div>
+        </form>
+      </div>
 
       <!-- <p id="mypara" class="btn btn-primary">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit,
@@ -43,7 +106,9 @@
         itaque. Consequatur, magnam.
       </p> -->
       <div id="blue_border" class="flex-container flex2">
-        <div id="violet_border"></div>
+        <div id="violet_border">
+          <p><strong>Enter destination details</strong></p>
+        </div>
         <div id="yellow_border"></div>
       </div>
     </div>
