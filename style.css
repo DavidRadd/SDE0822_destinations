@@ -1,3 +1,66 @@
 #mypara {
   background-color: aqua;
 }
+
+#title {
+  font-size: 350%;
+  text-align: center;
+}
+
+#minip {
+  text-align: center;
+  font-size: 130%;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+#lime_border {
+  border: 10px solid lime;
+  height: 250px;
+  /* width: 98%; */
+  align-items: center;
+}
+
+#red_border {
+  border: 10px solid red;
+  height: 700px;
+  width: 40%;
+}
+
+#blue_border {
+  border: 10px solid blue;
+  height: 50px;
+  width: 40%;
+  height: 700px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex1 {
+  margin: 5px 100px;
+  justify-content: space-around;
+}
+
+.flex2 {
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#violet_border {
+  border: 10px solid violet;
+  height: 70px;
+  width: 95%;
+}
+
+#yellow_border {
+  border: 10px solid yellow;
+  height: 580px;
+  width: 95%;
+}
